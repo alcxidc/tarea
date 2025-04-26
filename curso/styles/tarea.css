@@ -1,0 +1,48 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+.cuadro{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.foto{
+    display: flex;
+    width: 30%;
+    height: 50%;
+    border-radius: 100%;
+    justify-self: center;
+    margin:auto;
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(91, 91, 235);
+    color: white;
+    width: 100%;
+}
+.circulo {
+    display: flex;
+    width: 1rem;
+    border: 1rem blue solid;
+    border-radius: 9rem;
+    margin-left: 80%;
+}
+h2{
+    text-align: center;
+    color:rgba(0, 0, 101, 0.849);
+}
+
+p{
+    text-align: center;
+    background-color: rgb(190, 225, 255);
+    padding: 5px;
+    border-left: 4px solid blue;
+}
+
+.tarjeta{
+    text-align: center;
+}
